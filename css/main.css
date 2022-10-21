@@ -1,0 +1,32 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  color: white;
+}
+
+.type {
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 1.8rem;
+}
+
+h1 {
+  margin-left: .6rem;
+  border-right: 2px solid #777;
+  padding-right: .4rem;
+  font-size: 2.2rem;
+  animation: cursor .9s infinite steps(2);
+  color: yellow;
+}
+
+@keyframes cursor {
+  from { border-right: 2px solid #222; }
+  to { border-right: 2px solid #777; }
+}
